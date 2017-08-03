@@ -24,7 +24,7 @@ def is_pal(substring):
 	for i in range(len(substring)//2):
 		if not (str[0] == str[-1]):
 			return False
-		str = str[1:str_len]
+		str = str[1:str_len-1]
 		str_len = len(str)
 	return True
 
